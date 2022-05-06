@@ -1,0 +1,65 @@
+/* Global */
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+body {
+    margin: 0;
+    text-align: center;
+    background:url("https://images.pexels.com/photos/5708069/pexels-photo-5708069.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    font-size: 25px;
+    line-height: 1;
+    font-family: cursive;
+}
+.splash {
+    height: 100vh; 
+    position: relative;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.splash-inner {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.splash i {
+    font-size: 70px;
+    background: white;
+    width:60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+}
+    .page-title {
+        color: white;
+        font-size: 50px;
+        margin: 28px 0 0 0;
+        position: relative;
+        text-shadow: 2px 4px 10px red; 
+    }
+    .page-title::after {
+        position: absolute;
+        content: '';
+        bottom: -24px;
+        left: 50%;
+        width: 100px;
+        height: 10px;
+        transform:translateX(-50%);
+    }
+    .page-subtitle {
+        color: white;
+        font-size: 30px;
+        margin: 28px 0 0 0;
+        font-family:cursive;
+        text-shadow: 2px 6px red;  
+        padding: 10;
+    }
+        /* Footer */
+    .footer {
+        font-size: 14px;
+    }
+    
+   
+    
